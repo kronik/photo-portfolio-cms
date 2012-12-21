@@ -1,0 +1,12 @@
+<!-- Text Logo -->
+<h1 id="logo" class="grid_4"><cms:get_custom_field 'site_name' masterpage='globals.php' /></h1>
+
+<!-- Navigation Menu -->
+<ul id="navigation" class="grid_8">
+	<li><a href="<cms:link 'contact.php' />" <cms:if k_template_name=='contact.php'>class="current"</cms:if> ><span class="meta">Get in touch</span><br />Contact Us</a></li>
+	<li><a href="<cms:link 'blog.php' />" <cms:if k_template_name=='blog.php'>class="current"</cms:if> ><span class="meta">Latest news</span><br />Blog</a></li>
+	<li><a href="<cms:link 'portfolio.php' />" <cms:if k_template_name=='portfolio.php'>class="current"</cms:if> ><span class="meta">Our latest work</span><br />Portfolio</a></li>
+	<li><a href="<cms:link 'about.php' />" <cms:if k_template_name=='about.php'>class="current"</cms:if> ><span class="meta">Who are we?</span><br />About</a></li>
+	<li><a href="<cms:link 'index.php' />" <cms:if k_template_name=='index.php'>class="current"</cms:if> ><span class="meta">Homepage</span><br />Home</a></li>
+</ul>
+
